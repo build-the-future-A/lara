@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+.all{
+    width:100%;
+    height:100vh;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.300),rgba(0, 0, 0, 0.3)),url("./image/city-dubai-emirati-more-64200\ \(1\).jpeg");
+    background-size: cover;
+    background-position: center;
+
+}
+.navbar{
+    width:85%;
+    margin: auto;
+    padding:35px 0;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width:120px;
+    cursor:pointer;
+}
+.navbar ul li{
+    list-style: none;
+    display:inline-block;
+    margin:0 20px ;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color:#fff;
+    text-transform: uppercase;
+}
+.navbar ul li::after{
+    content:'';
+    width:0%;
+    height:3px;
+    background: #009688;
+    position:absolute;
+    left:0;
+    color:#fff;
+    bottom:-2px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width:100%;
+}
+.content{
+    width:100%;
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
+    text-align: center;
+    color:#fff;
+    
+    
+}
+.content h1{
+    font-size: 50px;
+    margin-top: 80px;
+}
+.content p{
+    margin:20px auto;
+    font-weight: 100;
+    line-height:25px;
+}
+button{
+    width:200px;
+    padding: 15px 0;
+    text-align: center;
+    margin:20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border:2px solid #009688;
+    background: transparent;
+    color:#fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+span{
+    background: #009688;
+    height:100%;
+    width:0%;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+button:hover span{
+    width:100%;
+}
+.img img{
+    width:300px;
+    height:200px;
+    border:1px solid #009688;
+    border-radius:8px;
+}
+
+.Nelly{
+    width:300px;
+    cursor:pointer;
+    max-width:400px;
+    margin-top:-871px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.instagram{
+    margin-top: 400px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    max-width:250px;
+    height: 25px;
+    background-color: #f70063;
+    border-radius:8px;
+}
+.instagram img{
+    max-width: 20px;
+    width:100%;
+    height:20px;
+    margin-top:1px;
+}
+.instagram p{
+    display:inline-block;
+    color: white;
+    margin-right:110px;
+    margin-left:20px;
+    margin-top: 5px;
+    
+}
+
+.facebook{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    max-width:250px;
+    height: 25px;
+    background-color: #2155ff;
+    border-radius:8px;
+}
+.facebook img{
+    max-width: 20px;
+    width:100%;
+    height:20px;
+    margin-top:1px;
+}
+.facebook p{
+    display:inline-block;
+    color: white;
+    margin-right:110px;
+    margin-left:20px;
+    margin-top: 5px;
+    
+}
+ .en  {
+    background: none;
+    border: 0px solid black;
+    padding: 10px 30px;
+    font-size: .9rem;
+    outline: none;
+    margin-left: -100px;
+    width: 100px;
+    height: 100px;
+}
+
+.en  input[type="range"] {
+    padding: 10px 0px;
+}
+
+ .en select:active, select:focus {
+    background:  rgb(122, 122, 122);
+}
+
+
+
+input[type="date"] {
+    padding: 8px 20px;
+}
+
+.container .langWrap{
+   margin-left: 15%;
+   color: #f70063;
+   margin-top: -43%;
+}
+
+
+ 

@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+.all{
+    width:100%;
+    height:100%;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.605),rgba(0, 0, 0, 0.605)),url("./image/passport.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+.navbar{
+    width:85%;
+    margin: auto;
+    padding:35px 0;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width:120px;
+    cursor:pointer;
+}
+.navbar ul li{
+    list-style: none;
+    display:inline-block;
+    margin:0 20px ;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color:#fff;
+    text-transform: uppercase;
+}
+.navbar ul li::after{
+    content:'';
+    width:0%;
+    height:3px;
+    background: #009688;
+    position:absolute;
+    left:0;
+    bottom:-2px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width:100%;
+    display: flex;
+}
+.text p{
+    color:#fff;
+    margin-left:20%;
+}
+.text h1{
+   color:#fff;
+   margin-left:35%;
+}
+.text .visa{
+    margin-left: 45%;
+}
+#p2{
+    max-width:450px;
+    width:100%;
+    height:200px;
+    border-radius:8px;
+    border:none;
+    margin-top:2%;
+    
+}
+#p1{
+    max-width:450px;
+    width:100%;
+    height:200px;
+    margin-left:33%;
+    margin-top:2%;
+    border-radius:8px;
+    border:none;
+
+    transition: 2s;
+
+}
+.form{
+    display:flex;
+    flex-direction: column;
+    border:2px solid #009688;
+    border-radius: 8px;
+    width: 400px;
+    height:575px;
+    max-width:500px;
+    
+    margin-left: 33%;
+}
+form input{
+    width:270px;
+    height:50px;
+    display: flex;
+    border:1px solid #009688;
+    border-radius: 8px;
+    margin-left: 1%;
+    margin-top: 1%;
+    background: rgba(0, 0, 0, 0.5);
+    color:#009688;
+    padding-left:20px;
+    margin-left: 13%;
+}
+textarea{
+    width: 270px;
+    height:150px;
+    display: flex;
+    border:1px solid #009688;
+    border-radius: 8px;
+    margin-top: 1%;
+    background: rgba(0, 0, 0, 0.5);
+    color:#009688;
+    padding-left: 20px;
+    padding-top: 10px;
+    margin-left: 13%;
+}
+form button{
+    width: 300px;
+    height: 50px;
+    display:flex;
+    border:1px solid #009688;
+    border-radius: 8px;
+    color: #009688;
+    background: rgba(0, 0, 0, 0.5);
+    padding-left: 17%;
+    padding-top: 3%;
+    margin-left: 13%;
+    transition: 1s;
+}
+button:hover{
+    background: #009688;
+    color:white;
+}
+form h1{
+    color:#009688;
+    margin-left: 5%;
+}
+form{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.text h1{
+    color:#9999998c;
+    transition: 2s;
+}
+#visa{
+    max-width: 450px;
+    width:100%;
+    height:200px;
+    text-align: center;
+    margin-left: 33%;
+    border-radius:8px;
+}
+
+.text h4{
+    color:#a8a8a8;
+    
+}
+.container .langWrap{
+    margin-left: 17%;
+    color: #f70063;
+    margin-top: -72%;
+ }
+ 
